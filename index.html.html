@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kevin Ventura | Portfolio</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        background: #0f172a;
+        color: #e2e8f0;
+        line-height: 1.6;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        background: linear-gradient(135deg, #020617, #1e293b);
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        color: #94a3b8;
+        font-size: 1.1rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #38bdf8;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        color: #0ea5e9;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .section {
+        margin-bottom: 60px;
+    }
+
+    .section h2 {
+        margin-bottom: 20px;
+        border-left: 4px solid #38bdf8;
+        padding-left: 10px;
+    }
+
+    .project {
+        background: #020617;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 25px;
+        border: 1px solid #1e293b;
+        transition: 0.3s;
+    }
+
+    .project:hover {
+        transform: translateY(-5px);
+        border-color: #38bdf8;
+    }
+
+    .project h3 {
+        color: #38bdf8;
+        margin-bottom: 10px;
+    }
+
+    .tag {
+        display: inline-block;
+        background: #1e293b;
+        padding: 5px 10px;
+        margin: 5px 5px 0 0;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        color: #94a3b8;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        color: #64748b;
+        border-top: 1px solid #1e293b;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kevin Ventura</h1>
+    <p>Information Systems • Data Analytics • Business Technology</p>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Information Systems Strategy Analysis – Aviation Industry</h3>
+            <p>
+                Conducted a deep analysis of how airlines use information systems to drive operational efficiency,
+                improve customer experience, and maintain competitive advantage in a high-risk environment.
+            </p>
+
+            <ul>
+                <li>Analyzed real-world systems across major airlines</li>
+                <li>Compared successful implementations and major system failures</li>
+                <li>Identified risks such as legacy systems and vendor dependency</li>
+                <li>Developed visual comparisons and strategic recommendations</li>
+            </ul>
+
+            <div>
+                <span class="tag">Data Analysis</span>
+                <span class="tag">Information Systems</span>
+                <span class="tag">Business Strategy</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>GradeMate – Academic Performance Tracking System</h3>
+            <p>
+                Built a database-driven application to track student academic performance and manage course data efficiently.
+            </p>
+
+            <ul>
+                <li>Designed relational database structure</li>
+                <li>Developed SQL queries for performance insights</li>
+                <li>Organized student and course data for scalability</li>
+            </ul>
+
+            <div>
+                <span class="tag">SQL</span>
+                <span class="tag">Database Design</span>
+                <span class="tag">Data Management</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m an Information Systems student focused on combining technology and business strategy to solve real-world problems.
+            My work centers around data analysis, system design, and building solutions that improve efficiency and decision-making.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Kevin Ventura</p>
+</footer>
+
+</body>
+</html>
